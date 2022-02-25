@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-position: center;
+    
+}
+.container{ 
+    background-color: rgb(250, 249, 248);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    width: 500px;
+    overflow: hidden;
+}
+.header{ 
+    background-color: rgb(220, 196, 243);
+    padding: 20px 20px;
+    border-bottom: 1px solid rgb(191, 219, 223);
+}
+.header h1{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(90, 89, 89);
+}
+.myform p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 5px;
+}
+.header p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.myform{ 
+    padding: 30px 40px;
+
+}
+.box{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.box label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+}
+.box input{
+    border: 2px solid rgb(220, 196, 243);
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.box small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.myform button{
+    background-color: rgb(180, 130, 226);
+    border: 2px solid rgb(191, 219, 223);
+    color: white;
+    width:100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.box.success input{
+    border-color: rgb(13, 214, 103);
+}
+.box.error input{
+    border-color: red;
+} 
+.box.error small{
+    visibility: visible;
+    color: red;
+}

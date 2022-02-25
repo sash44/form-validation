@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300&family=Redressed&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body style="background-image: url('background.jpg');">
+        <div class="container">
+            <div class="header">
+             <h1>ChiChi's HairCare</h1>
+            </div>
+            <form class="myform" id="form">
+                <p>Hey Gorgeous! Please fill out the form below</p>
+                <div class="box">
+                    <label>Name</label><input type="text" placeholder="Enter First Name" id="fullname"> 
+                    <small> Error Message</small>
+                </div>
+                <div class="box" >
+                    <label>Email</label><input type="text" placeholder="russell_doe@gmail.com" id="email">
+                    <small>Error Message</small>
+                </div>
+                <div class="box">
+                    <label>Password</label><input type="password" placeholder="Password" id="pass">
+                    <small>Error Message</small>
+                </div>
+                <div class="box">
+                    <label>Confirm Password</label><input type="password" placeholder="Confirm Password" id="pass2">
+                    <small>Error Message</small>
+                </div>
+                <div class="box">
+                    <label>Phone Number</label><input type="text" placeholder="07000000000" id="num"> 
+                    <small>Error Message</small>
+                </div>
+                <button id="sub">Submit</button>
+            </form>
+        </div>
+        <script src="Form.js"></script> 
+    </body>
+</html>
